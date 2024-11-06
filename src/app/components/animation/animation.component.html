@@ -1,7 +1,6 @@
 <div class="centered-container">
-    <br>
     <mat-form-field appearance="outline" class="full-width">
-      <mat-label>Ingrese el nombre de un Pokemon</mat-label>
+      <mat-label>Ingrese el nombre de un Pokemon o el ID</mat-label>
       <input matInput #pokemonName (input)="updateName(pokemonName.value)">
       <button mat-icon-button matSuffix (click)="loadPokemon()">
         <mat-icon>search</mat-icon>
